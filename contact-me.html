@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h1>My Contact Details</h1>
+    <ol>
+      <li>
+        <a href="https://www.linkedin.com/in/chiranmoy-bhattacharya-b242901b3">
+          <strong>LinkedIn</strong>
+        </a>
+      </li>
+      <li>Email: dummy@gmail.com</li>
+      <li>Mobile No.: +91696996969</li>
+      <li>Address: 221b Baker Street</li>
+    </ol>
+    <hr />
+    <br />
+
+    <!-- Contact Form -->
+    <form action="mailto:dummy@gmail.com" message="post" enctype="text/plain">
+      <label for="name">Your name: </label>
+      <input type="text" name="name" id="name" minlength="3" maxlength="30" />
+      <br />
+
+      <label for="email">Your email: </label>
+      <input type="email" name="email" id="email" />
+      <br />
+
+      <label for="message">Your message: </label><br />
+      <textarea name="message" id="message" cols="32" rows="8"></textarea>
+      <br />
+
+      <label for="msg-button"></label>
+      <input type="submit" id="msg-button" name="submit-button" />
+    </form>
+  </body>
+</html>
